@@ -1,0 +1,36 @@
+.mainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userBox{
+  width: 25%;
+  display: flex;
+  background-color: rgba(68, 68, 68, 0.966);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.userBox img{
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+
+.userBox button{
+  border-radius: 5px;
+  border: 1px solid rgba(255, 0, 0, 0.685);
+  background-color: rgba(68, 68, 68, 0.966);
+  color: white;
+  width: 15%;
+  height: 15%;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.userBox button:hover{
+  background-color: rgba(255, 0, 0, 0.685);
+}
