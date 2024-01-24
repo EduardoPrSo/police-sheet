@@ -1,14 +1,13 @@
 'use client'
 import Image from 'next/image';
 import { signIn, signOut, useSession } from 'next-auth/react';
+import Button from '@/components/Buttons';
 import styles from './page.module.css'
 
 export default function Home() {
   const { data: session } = useSession();
 
   const user = session?.user;
-
-  console.log(session)
 
   return (
     <div className={styles.mainContainer}>
@@ -22,6 +21,7 @@ export default function Home() {
             <p>ID: {user.id}</p>
             <p>Email: {user.email}</p>
           </div>
+          <Button label="Botão"></Button>
           <button onClick={() => signOut()}>Sair</button>
         </div>
       )}
