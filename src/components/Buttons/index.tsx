@@ -1,14 +1,10 @@
-import { ButtonHTMLAttributes } from "react"
-import { MainButton } from "./styles"
+import { ButtonHTMLAttributes } from "react";
+import { MainButton } from "./styles";
 
-interface Props extends ButtonHTMLAttributes<HTMLButtonElement>{
-    label: string;
+interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+  label: string;
 }
 
 export default function Button({ label, ...props }: Props) {
-    return (
-        <MainButton {...props}>
-            {label}
-        </MainButton>
-    )
+  return <MainButton {...props}>{label}</MainButton>;
 }

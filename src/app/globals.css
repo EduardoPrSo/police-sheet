@@ -1,9 +1,9 @@
-.container{
-    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+.container {
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 50%, transparent 100%);
 }
 
-.image{
-    background-image: url("../../public/bg.jpg");
-    width: 100vw;
-    height: 100vh;
+.image {
+  background-image: url("../../public/bg.jpg");
+  width: 100vw;
+  height: 100vh;
 }

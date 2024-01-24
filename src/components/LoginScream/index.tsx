@@ -1,6 +1,3 @@
-export default function LoginScream(){
-    return (
-        <>
-        </>
-    )
+export default function LoginScream() {
+  return <></>;
 }

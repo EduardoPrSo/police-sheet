@@ -1,10 +1,10 @@
-.mainContainer{
+.mainContainer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.userBox{
+.userBox {
   width: 25%;
   display: flex;
   background-color: rgba(68, 68, 68, 0.966);
@@ -14,7 +14,7 @@
   color: white;
 }
 
-.userBox img{
+.userBox img {
   border-radius: 50%;
   width: 20%;
   height: 20%;

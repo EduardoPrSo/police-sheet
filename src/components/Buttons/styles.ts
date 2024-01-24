@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
-interface ButtonProps {
-}
+interface ButtonProps {}
 
-const MainButton = styled.button<ButtonProps>`
+const MainButton = styled.button<ButtonProps>``;
 
-`
-
-export { MainButton }
+export { MainButton };

@@ -1,5 +1,5 @@
-import NextAuth from 'next-auth';
-import DiscordProvider from 'next-auth/providers/discord'
+import NextAuth from "next-auth";
+import DiscordProvider from "next-auth/providers/discord";
 
 export default NextAuth({
   providers: [
@@ -11,16 +11,16 @@ export default NextAuth({
   secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
     async jwt({ token }) {
-      return token
+      return token;
     },
     async session({ session, token }) {
       Object.assign(session, {
         user: {
-            ...session.user,
-            id: token.sub
-        }
-      })
-      return session
-    }
-  }
-})
+          ...session.user,
+          id: token.sub,
+        },
+      });
+      return session;
+    },
+  },
+});
