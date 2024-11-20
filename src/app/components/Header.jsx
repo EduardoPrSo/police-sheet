@@ -25,9 +25,10 @@ export default function Header(){
                 <img className="h-5/6" src="https://media.discordapp.net/attachments/1197408220277391370/1306293345898987540/SSPC.png?ex=673623fb&is=6734d27b&hm=eda2ff23fc9da642df6a3b3d198bbce245194fa95b22d1439e8a5f144dd5c53a&=&format=webp&quality=lossless" alt="" />
             </div>
             <div className="w-full bg-white flex pt-1 justify-center flex-col font-bold">
-                <div className="w-full h-8 bg-slate-800 grid grid-cols-[1fr,2fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr] text-[.9rem] items-center text-center gap-2 text-white">
+                <div className="w-full h-8 bg-slate-800 grid grid-cols-[1fr,2fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr] text-[.9rem] items-center text-center gap-2 text-white">
                     <h1>ID</h1>
                     <h1>NOME</h1>
+                    <h1>DISTINTIVO</h1>
                     <h1>PATENTE</h1>
                     <h1>INSIGNIA</h1>
                     <h1>SERIAL</h1>

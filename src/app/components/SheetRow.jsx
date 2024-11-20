@@ -1,8 +1,9 @@
 export default function (props){
     return (
-        <div className="w-full h-8 bg-white grid grid-cols-[1fr,2fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr] text-[.9rem] items-center text-center gap-2 font-normal text-black border border-black border-dashed border-t-0 last:border-b-0">
+        <div className="w-full h-8 bg-white grid grid-cols-[1fr,2fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr] text-[.9rem] items-center text-center gap-2 font-normal text-black border border-black border-dashed border-t-0 last:border-b-0">
             <div>{props.data.id}</div>
             <div>{props.data.name}</div>
+            <div>{props.data.id}</div>
             <div>{props.data.rank}</div>
             <div className="flex items-center justify-center">
                 {props.data.insignia === "-x-" || props.data.unity === "Polícia Civil" ? "-x-" : (
